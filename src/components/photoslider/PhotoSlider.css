@@ -1,0 +1,65 @@
+.carousel .control-arrow {
+    background: none;
+    border: none;
+}
+
+.carousel .control-arrow:hover {
+    display: none;
+    background: none;
+}
+
+.carousel .custom-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel .custom-arrow-prev {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.carousel .custom-arrow-next {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+/* .carousel .control-next.control-arrow::before {
+    content: '>';
+    font-size: 30px;
+    color: black;
+} */
+
+/* .carousel .control-prev.control-arrow::before {
+    content: '<';
+    font-size: 30px;
+    color: black;
+} */
+
+/* .carousel .control-arrow:focus {
+    
+    outline: none;
+} */
+
+.carousel .control-dots .dot {
+    display: none;
+    background-color: gray;
+}
+
+/* .carousel .control-dots .dot.selected {
+    
+    background-color: black;
+}
+ */
+/* .carousel .slide img {
+    border-radius: 10px;
+} */
+
+/* .carousel .carousel-status {
+    display: none;
+} */
